@@ -1,0 +1,25 @@
+version: '3.8'
+
+services:
+  microros_agent:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    user: uros_agent
+    entrypoint: /bin/bash
+    environment:
+      - DISPLAY
+      - QT_X11_NO_MITSHM=1
+      #- NVIDIA_VISIBLE_DEVICES=all
+      - QT_DEBUG_PLUGINS=1
+      - TZ=Asia/Kolkata
+      - ROS_DOMAIN_ID=0
+      #- RMW_IMPLEMENTATION=rmw_cyclonedds_cpp
+      - ROS_LOCALHOST_ONLY=0
+    network_mode: host
+    privileged: true
+    tty: true
+    stdin_open: true
+    restart: always
+    #command: /bin/bash -c "micro_ros_agent udp4 --port 8888 -v6 && tail -f /dev/null"
+    command: -c "sleep infinity"
