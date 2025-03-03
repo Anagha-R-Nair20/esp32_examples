@@ -1,0 +1,13 @@
+# Target labels
+ bootloader
+# Source files and their labels
+/micro_ros_espidf_component/examples/switch_subscriber/build/CMakeFiles/bootloader
+/micro_ros_espidf_component/examples/switch_subscriber/build/CMakeFiles/bootloader.rule
+/micro_ros_espidf_component/examples/switch_subscriber/build/CMakeFiles/bootloader-complete.rule
+/micro_ros_espidf_component/examples/switch_subscriber/build/bootloader-prefix/src/bootloader-stamp/bootloader-build.rule
+/micro_ros_espidf_component/examples/switch_subscriber/build/bootloader-prefix/src/bootloader-stamp/bootloader-configure.rule
+/micro_ros_espidf_component/examples/switch_subscriber/build/bootloader-prefix/src/bootloader-stamp/bootloader-download.rule
+/micro_ros_espidf_component/examples/switch_subscriber/build/bootloader-prefix/src/bootloader-stamp/bootloader-install.rule
+/micro_ros_espidf_component/examples/switch_subscriber/build/bootloader-prefix/src/bootloader-stamp/bootloader-mkdir.rule
+/micro_ros_espidf_component/examples/switch_subscriber/build/bootloader-prefix/src/bootloader-stamp/bootloader-patch.rule
+/micro_ros_espidf_component/examples/switch_subscriber/build/bootloader-prefix/src/bootloader-stamp/bootloader-update.rule

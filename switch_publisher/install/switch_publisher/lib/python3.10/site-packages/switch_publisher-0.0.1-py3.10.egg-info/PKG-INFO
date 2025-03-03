@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: switch-publisher
+Version: 0.0.1
+Summary: ROS2 Publisher Node for Switching LED/Bulbs via Relay
+Home-page: UNKNOWN
+Maintainer: your_name
+Maintainer-email: your_email@example.com
+License: Apache License 2.0
+Platform: UNKNOWN
+
+UNKNOWN
+

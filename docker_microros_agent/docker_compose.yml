@@ -7,6 +7,8 @@ services:
       dockerfile: Dockerfile
     user: uros_agent
     entrypoint: /bin/bash
+    volumes:
+      - /home/anagha/esp_example/switch_publisher:/agent
     environment:
       - DISPLAY
       - QT_X11_NO_MITSHM=1

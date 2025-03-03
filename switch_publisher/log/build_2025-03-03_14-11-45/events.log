@@ -1,0 +1,72 @@
+[0.000000] (-) TimerEvent: {}
+[0.002174] (switch_publisher) JobQueued: {'identifier': 'switch_publisher', 'dependencies': OrderedDict()}
+[0.002680] (switch_publisher) JobStarted: {'identifier': 'switch_publisher'}
+[0.098566] (-) TimerEvent: {}
+[0.199353] (-) TimerEvent: {}
+[0.299952] (-) TimerEvent: {}
+[0.400506] (-) TimerEvent: {}
+[0.501039] (-) TimerEvent: {}
+[0.601588] (-) TimerEvent: {}
+[0.702379] (-) TimerEvent: {}
+[0.803051] (-) TimerEvent: {}
+[0.904378] (-) TimerEvent: {}
+[1.005043] (-) TimerEvent: {}
+[1.105576] (-) TimerEvent: {}
+[1.206105] (-) TimerEvent: {}
+[1.306586] (-) TimerEvent: {}
+[1.407237] (-) TimerEvent: {}
+[1.507880] (-) TimerEvent: {}
+[1.608689] (-) TimerEvent: {}
+[1.709312] (-) TimerEvent: {}
+[1.810131] (-) TimerEvent: {}
+[1.910870] (-) TimerEvent: {}
+[2.011631] (-) TimerEvent: {}
+[2.037751] (switch_publisher) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../build/switch_publisher', 'build', '--build-base', '/agent/build/switch_publisher/build', 'install', '--record', '/agent/build/switch_publisher/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/agent/src', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'HOSTNAME': 'anagha-HP-Laptop-14s-cr2xxx', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/uros_agent', 'OLDPWD': '/home/uros_agent', 'MICROROS_DISABLE_SHM': '1', 'ROS_PYTHON_VERSION': '3', 'COLCON_PREFIX_PATH': '/agent/install', 'ROS_DISTRO': 'humble', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm', 'ROS_LOCALHOST_ONLY': '0', 'QT_X11_NO_MITSHM': '1', 'PATH': '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin', 'QT_DEBUG_PLUGINS': '1', 'DISPLAY': ':0', 'LANG': 'C.UTF-8', 'RMW_IMPLEMENTATION': 'rmw_fastrtps_cpp', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'ROS_DOMAIN_ID': '0', 'AMENT_PREFIX_PATH': '/agent/install/switch_publisher:/opt/ros/humble', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'PWD': '/agent/build/switch_publisher', 'LC_ALL': 'C.UTF-8', 'PYTHONPATH': '/agent/build/switch_publisher/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/agent/install/switch_publisher/lib/python3.10/site-packages:/agent/build/switch_publisher:/agent/install/switch_publisher/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'TZ': 'Asia/Kolkata', 'COLCON': '1'}, 'shell': False}
+[2.112008] (-) TimerEvent: {}
+[2.212866] (-) TimerEvent: {}
+[2.313585] (-) TimerEvent: {}
+[2.414205] (-) TimerEvent: {}
+[2.514852] (-) TimerEvent: {}
+[2.615577] (-) TimerEvent: {}
+[2.716107] (-) TimerEvent: {}
+[2.816665] (-) TimerEvent: {}
+[2.841999] (switch_publisher) StdoutLine: {'line': b'running egg_info\n'}
+[2.845368] (switch_publisher) StdoutLine: {'line': b'creating ../build/switch_publisher/switch_publisher.egg-info\n'}
+[2.846205] (switch_publisher) StdoutLine: {'line': b'writing ../build/switch_publisher/switch_publisher.egg-info/PKG-INFO\n'}
+[2.847155] (switch_publisher) StdoutLine: {'line': b'writing dependency_links to ../build/switch_publisher/switch_publisher.egg-info/dependency_links.txt\n'}
+[2.847905] (switch_publisher) StdoutLine: {'line': b'writing entry points to ../build/switch_publisher/switch_publisher.egg-info/entry_points.txt\n'}
+[2.848753] (switch_publisher) StdoutLine: {'line': b'writing requirements to ../build/switch_publisher/switch_publisher.egg-info/requires.txt\n'}
+[2.849274] (switch_publisher) StdoutLine: {'line': b'writing top-level names to ../build/switch_publisher/switch_publisher.egg-info/top_level.txt\n'}
+[2.849954] (switch_publisher) StdoutLine: {'line': b"writing manifest file '../build/switch_publisher/switch_publisher.egg-info/SOURCES.txt'\n"}
+[2.856820] (switch_publisher) StdoutLine: {'line': b"reading manifest file '../build/switch_publisher/switch_publisher.egg-info/SOURCES.txt'\n"}
+[2.859886] (switch_publisher) StdoutLine: {'line': b"writing manifest file '../build/switch_publisher/switch_publisher.egg-info/SOURCES.txt'\n"}
+[2.860747] (switch_publisher) StdoutLine: {'line': b'running build\n'}
+[2.861266] (switch_publisher) StdoutLine: {'line': b'running build_py\n'}
+[2.862017] (switch_publisher) StdoutLine: {'line': b'creating /agent/build/switch_publisher/build\n'}
+[2.862427] (switch_publisher) StdoutLine: {'line': b'creating /agent/build/switch_publisher/build/lib\n'}
+[2.862703] (switch_publisher) StdoutLine: {'line': b'creating /agent/build/switch_publisher/build/lib/switch_publisher\n'}
+[2.863360] (switch_publisher) StdoutLine: {'line': b'copying switch_publisher/switch_publisher.py -> /agent/build/switch_publisher/build/lib/switch_publisher\n'}
+[2.863624] (switch_publisher) StdoutLine: {'line': b'copying switch_publisher/__init__.py -> /agent/build/switch_publisher/build/lib/switch_publisher\n'}
+[2.863919] (switch_publisher) StdoutLine: {'line': b'running install\n'}
+[2.864376] (switch_publisher) StdoutLine: {'line': b'running install_lib\n'}
+[2.867175] (switch_publisher) StdoutLine: {'line': b'creating /agent/install/switch_publisher/lib/python3.10/site-packages/switch_publisher\n'}
+[2.867801] (switch_publisher) StdoutLine: {'line': b'copying /agent/build/switch_publisher/build/lib/switch_publisher/switch_publisher.py -> /agent/install/switch_publisher/lib/python3.10/site-packages/switch_publisher\n'}
+[2.868369] (switch_publisher) StdoutLine: {'line': b'copying /agent/build/switch_publisher/build/lib/switch_publisher/__init__.py -> /agent/install/switch_publisher/lib/python3.10/site-packages/switch_publisher\n'}
+[2.869774] (switch_publisher) StdoutLine: {'line': b'byte-compiling /agent/install/switch_publisher/lib/python3.10/site-packages/switch_publisher/switch_publisher.py to switch_publisher.cpython-310.pyc\n'}
+[2.871501] (switch_publisher) StdoutLine: {'line': b'byte-compiling /agent/install/switch_publisher/lib/python3.10/site-packages/switch_publisher/__init__.py to __init__.cpython-310.pyc\n'}
+[2.872195] (switch_publisher) StdoutLine: {'line': b'running install_data\n'}
+[2.872781] (switch_publisher) StdoutLine: {'line': b'creating /agent/install/switch_publisher/share/ament_index\n'}
+[2.873343] (switch_publisher) StdoutLine: {'line': b'creating /agent/install/switch_publisher/share/ament_index/resource_index\n'}
+[2.873600] (switch_publisher) StdoutLine: {'line': b'creating /agent/install/switch_publisher/share/ament_index/resource_index/packages\n'}
+[2.874182] (switch_publisher) StdoutLine: {'line': b'copying resource/switch_publisher -> /agent/install/switch_publisher/share/ament_index/resource_index/packages\n'}
+[2.874503] (switch_publisher) StdoutLine: {'line': b'copying package.xml -> /agent/install/switch_publisher/share/switch_publisher\n'}
+[2.874768] (switch_publisher) StdoutLine: {'line': b'running install_egg_info\n'}
+[2.879755] (switch_publisher) StdoutLine: {'line': b'Copying ../build/switch_publisher/switch_publisher.egg-info to /agent/install/switch_publisher/lib/python3.10/site-packages/switch_publisher-0.0.1-py3.10.egg-info\n'}
+[2.882518] (switch_publisher) StdoutLine: {'line': b'running install_scripts\n'}
+[2.916868] (-) TimerEvent: {}
+[2.960370] (switch_publisher) StdoutLine: {'line': b'Installing switch_publisher script to /agent/install/switch_publisher/lib/switch_publisher\n'}
+[2.961947] (switch_publisher) StdoutLine: {'line': b"writing list of installed files to '/agent/build/switch_publisher/install.log'\n"}
+[3.017097] (-) TimerEvent: {}
+[3.038156] (switch_publisher) CommandEnded: {'returncode': 0}
+[3.078397] (switch_publisher) JobEnded: {'identifier': 'switch_publisher', 'rc': 0}
+[3.080604] (-) EventReactorShutdown: {}

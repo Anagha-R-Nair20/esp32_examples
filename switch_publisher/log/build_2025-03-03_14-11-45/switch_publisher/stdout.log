@@ -1,0 +1,35 @@
+running egg_info
+creating ../build/switch_publisher/switch_publisher.egg-info
+writing ../build/switch_publisher/switch_publisher.egg-info/PKG-INFO
+writing dependency_links to ../build/switch_publisher/switch_publisher.egg-info/dependency_links.txt
+writing entry points to ../build/switch_publisher/switch_publisher.egg-info/entry_points.txt
+writing requirements to ../build/switch_publisher/switch_publisher.egg-info/requires.txt
+writing top-level names to ../build/switch_publisher/switch_publisher.egg-info/top_level.txt
+writing manifest file '../build/switch_publisher/switch_publisher.egg-info/SOURCES.txt'
+reading manifest file '../build/switch_publisher/switch_publisher.egg-info/SOURCES.txt'
+writing manifest file '../build/switch_publisher/switch_publisher.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /agent/build/switch_publisher/build
+creating /agent/build/switch_publisher/build/lib
+creating /agent/build/switch_publisher/build/lib/switch_publisher
+copying switch_publisher/switch_publisher.py -> /agent/build/switch_publisher/build/lib/switch_publisher
+copying switch_publisher/__init__.py -> /agent/build/switch_publisher/build/lib/switch_publisher
+running install
+running install_lib
+creating /agent/install/switch_publisher/lib/python3.10/site-packages/switch_publisher
+copying /agent/build/switch_publisher/build/lib/switch_publisher/switch_publisher.py -> /agent/install/switch_publisher/lib/python3.10/site-packages/switch_publisher
+copying /agent/build/switch_publisher/build/lib/switch_publisher/__init__.py -> /agent/install/switch_publisher/lib/python3.10/site-packages/switch_publisher
+byte-compiling /agent/install/switch_publisher/lib/python3.10/site-packages/switch_publisher/switch_publisher.py to switch_publisher.cpython-310.pyc
+byte-compiling /agent/install/switch_publisher/lib/python3.10/site-packages/switch_publisher/__init__.py to __init__.cpython-310.pyc
+running install_data
+creating /agent/install/switch_publisher/share/ament_index
+creating /agent/install/switch_publisher/share/ament_index/resource_index
+creating /agent/install/switch_publisher/share/ament_index/resource_index/packages
+copying resource/switch_publisher -> /agent/install/switch_publisher/share/ament_index/resource_index/packages
+copying package.xml -> /agent/install/switch_publisher/share/switch_publisher
+running install_egg_info
+Copying ../build/switch_publisher/switch_publisher.egg-info to /agent/install/switch_publisher/lib/python3.10/site-packages/switch_publisher-0.0.1-py3.10.egg-info
+running install_scripts
+Installing switch_publisher script to /agent/install/switch_publisher/lib/switch_publisher
+writing list of installed files to '/agent/build/switch_publisher/install.log'

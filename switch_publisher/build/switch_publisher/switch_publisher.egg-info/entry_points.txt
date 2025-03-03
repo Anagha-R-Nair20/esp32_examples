@@ -1,0 +1,3 @@
+[console_scripts]
+switch_publisher = switch_publisher.switch_publisher:main
+

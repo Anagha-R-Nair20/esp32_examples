@@ -1,17 +1,16 @@
-# Use the micro-ROS ESP-IDF image as base
+# Use the micro-ROS Agent official image as base
 FROM microros/micro-ros-agent:humble
 
+# Install additional dependencies
+RUN apt-get update && apt-get install -y \
+    git wget qtbase5-dev qtchooser qt5-qmake qtbase5-dev-tools \
+    python3-rosdep \
+    python3-vcstool \
+    python3-colcon-common-extensions
 
-# Install the rmw_cyclonedds_cpp RMW implementation
-#RUN apt-get update && apt-get install -y \
-#    ros-humble-rmw-cyclonedds-cpp \
- #   && rm -rf /var/lib/apt/lists/*
-
-RUN apt-get update 
+# Set up a new user (Optional: micro-ROS should work as root too)
 RUN useradd -ms /bin/bash uros_agent
 WORKDIR /agent
-USER uros_agent
 
-
-# Start bash shell
-# CMD ["tail -f /dev/null"]
+# Source ROS before running commands
+ENTRYPOINT ["/bin/bash", "-c", "source /opt/ros/humble/setup.bash && exec $@"]

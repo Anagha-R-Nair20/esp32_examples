@@ -1,0 +1,43 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/micro_ros_espidf_component/examples/switch_subscriber/build/CMakeFiles/bootloader"
+		},
+		{
+			"file" : "/micro_ros_espidf_component/examples/switch_subscriber/build/CMakeFiles/bootloader.rule"
+		},
+		{
+			"file" : "/micro_ros_espidf_component/examples/switch_subscriber/build/CMakeFiles/bootloader-complete.rule"
+		},
+		{
+			"file" : "/micro_ros_espidf_component/examples/switch_subscriber/build/bootloader-prefix/src/bootloader-stamp/bootloader-build.rule"
+		},
+		{
+			"file" : "/micro_ros_espidf_component/examples/switch_subscriber/build/bootloader-prefix/src/bootloader-stamp/bootloader-configure.rule"
+		},
+		{
+			"file" : "/micro_ros_espidf_component/examples/switch_subscriber/build/bootloader-prefix/src/bootloader-stamp/bootloader-download.rule"
+		},
+		{
+			"file" : "/micro_ros_espidf_component/examples/switch_subscriber/build/bootloader-prefix/src/bootloader-stamp/bootloader-install.rule"
+		},
+		{
+			"file" : "/micro_ros_espidf_component/examples/switch_subscriber/build/bootloader-prefix/src/bootloader-stamp/bootloader-mkdir.rule"
+		},
+		{
+			"file" : "/micro_ros_espidf_component/examples/switch_subscriber/build/bootloader-prefix/src/bootloader-stamp/bootloader-patch.rule"
+		},
+		{
+			"file" : "/micro_ros_espidf_component/examples/switch_subscriber/build/bootloader-prefix/src/bootloader-stamp/bootloader-update.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"bootloader"
+		],
+		"name" : "bootloader"
+	}
+}

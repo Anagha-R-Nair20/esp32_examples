@@ -1,3 +1,4 @@
 {
-    "cmake.sourceDirectory": "/home/anagha/esp_example/micro_ros_espidf_component"
+    "cmake.sourceDirectory": "/home/anagha/esp_example/micro_ros_espidf_component",
+    "idf.port": "/dev/ttyACM0"
 }
