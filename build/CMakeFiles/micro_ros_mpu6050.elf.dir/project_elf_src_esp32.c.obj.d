@@ -1,2 +1,0 @@
-CMakeFiles/micro_ros_mpu6050.elf.dir/project_elf_src_esp32.c.obj: \
- /home/anagha/esp/micro_ros_mpu6050/build/project_elf_src_esp32.c

@@ -1,0 +1,19 @@
+fatal: detected dubious ownership in repository at '/opt/esp/idf'
+To add an exception for this directory, call:
+
+	git config --global --add safe.directory /opt/esp/idf
+CMake Error at /opt/esp/idf/tools/cmake/build.cmake:519 (message):
+  ERROR: Cannot parse components lock file.  Please check that
+
+  	/esp/micro_ros_mpu6050/dependencies.lock
+
+  is a valid lock YAML file.
+
+  You can delete corrupted lock file and it will be recreated on next run.
+  Some components may be updated in this case.
+
+Call Stack (most recent call first):
+  /opt/esp/idf/tools/cmake/project.cmake:440 (idf_build_process)
+  CMakeLists.txt:7 (project)
+
+

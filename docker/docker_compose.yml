@@ -1,0 +1,33 @@
+version: '3.8'
+services:
+  esp-idf:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    
+    user: espidf
+    environment:
+      - DISPLAY
+      - QT_X11_NO_MITSHM=1
+      #- NVIDIA_VISIBLE_DEVICES=all
+      - QT_DEBUG_PLUGINS=1
+      - TZ=Asia/Kolkata
+      - ROS_DOMAIN_ID=0
+      - RMW_IMPLEMENTATION=rmw_cyclonedds_cpp
+      - ROS_LOCALHOST_ONLY=0 
+    volumes:
+      - /home/anagha/esp/micro_ros_mpu6050:/micro_ros_mpu6050
+      - /home/anagha/esp:/esp
+      - /dev:/dev
+    privileged: true
+    network_mode: host
+    devices:
+      - /dev/dri:/dev/dri
+      - /dev/input:/dev/input
+      - /dev/ttyACM0:/dev/ttyACM0
+    cap_add:
+      - SYS_ADMIN
+    command: /bin/bash -c "source /opt/esp/idf/export.sh && tail -f /dev/null"
+
+
+       

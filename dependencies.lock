@@ -1,17 +1,15 @@
 dependencies:
   espressif/mpu6050:
-    dependencies: []
+    component_hash: d69219ccb141372b863c511749ffbeab28417ac71c205d7ed7030c308e1b6832
     source:
-      path: /home/anagha/esp/micro_ros_mpu6050/components/espressif__mpu6050
-      type: local
+      service_url: https://api.components.espressif.com/
+      type: service
     version: 1.2.0
   idf:
+    component_hash: null
     source:
       type: idf
-    version: 5.3.0
-direct_dependencies:
-- espressif/mpu6050
-- idf
-manifest_hash: 6bdf2c9ed36df94537954230a301f87b6ff7a7b51fe93760eab81586930bb842
+    version: 5.0.0
+manifest_hash: c314cab4977e18d0d535c0b786c6e3e770c3b7ac80792b09814bd2f485dabcf4
 target: esp32
-version: 2.0.0
+version: 1.0.0
