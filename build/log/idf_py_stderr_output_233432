@@ -1,0 +1,23 @@
+/home/anagha/esp/micro_ros_mpu6050/main/main.c: In function 'mpu6050_init':
+/home/anagha/esp/micro_ros_mpu6050/main/main.c:63:54: error: 'portTICK_RATE_MS' undeclared (first use in this function); did you mean 'portTICK_PERIOD_MS'?
+   63 |     i2c_master_cmd_begin(I2C_MASTER_NUM, cmd, 1000 / portTICK_RATE_MS);
+      |                                                      ^~~~~~~~~~~~~~~~
+      |                                                      portTICK_PERIOD_MS
+/home/anagha/esp/micro_ros_mpu6050/main/main.c:63:54: note: each undeclared identifier is reported only once for each function it appears in
+/home/anagha/esp/micro_ros_mpu6050/main/main.c: In function 'mpu6050_read_accel_gyro':
+/home/anagha/esp/micro_ros_mpu6050/main/main.c:78:54: error: 'portTICK_RATE_MS' undeclared (first use in this function); did you mean 'portTICK_PERIOD_MS'?
+   78 |     i2c_master_cmd_begin(I2C_MASTER_NUM, cmd, 1000 / portTICK_RATE_MS);
+      |                                                      ^~~~~~~~~~~~~~~~
+      |                                                      portTICK_PERIOD_MS
+/home/anagha/esp/micro_ros_mpu6050/main/main.c: In function 'app_main':
+/home/anagha/esp/micro_ros_mpu6050/main/main.c:159:13: error: 'CONFIG_MICRO_ROS_APP_STACK' undeclared (first use in this function); did you mean 'CONFIG_MICRO_ROS_AGENT_IP'?
+  159 |             CONFIG_MICRO_ROS_APP_STACK,
+      |             ^~~~~~~~~~~~~~~~~~~~~~~~~~
+      |             CONFIG_MICRO_ROS_AGENT_IP
+/home/anagha/esp/micro_ros_mpu6050/main/main.c:161:13: error: 'CONFIG_MICRO_ROS_APP_TASK_PRIO' undeclared (first use in this function); did you mean 'CONFIG_MICRO_ROS_AGENT_IP'?
+  161 |             CONFIG_MICRO_ROS_APP_TASK_PRIO,
+      |             ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+      |             CONFIG_MICRO_ROS_AGENT_IP
+make[2]: *** [esp-idf/main/CMakeFiles/__idf_main.dir/build.make:76: esp-idf/main/CMakeFiles/__idf_main.dir/main.c.obj] Error 1
+make[1]: *** [CMakeFiles/Makefile2:5630: esp-idf/main/CMakeFiles/__idf_main.dir/all] Error 2
+make: *** [Makefile:136: all] Error 2
